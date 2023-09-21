@@ -1,0 +1,35 @@
+"""
+body {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    width: 100%;
+}
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.list-group-item .btn-danger {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+}
+"""

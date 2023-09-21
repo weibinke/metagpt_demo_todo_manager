@@ -1,0 +1,17 @@
+classDiagram
+    class User{
+        +int id
+        +str username
+        +str password_hash
+        +__init__(username: str, password: str)
+        +check_password(password: str): bool
+    }
+    class Task{
+        +int id
+        +str title
+        +bool completed
+        +int user_id
+        +__init__(title: str, user_id: int)
+        +mark_as_completed()
+    }
+    User "1" -- "*" Task: has

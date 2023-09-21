@@ -1,0 +1,10 @@
+sequenceDiagram
+    participant M as Main
+    participant U as User
+    participant T as Task
+    M->>U: create_user(username, password)
+    M->>U: login_user(username, password)
+    M->>T: create_task(title, user_id)
+    M->>T: mark_task_as_completed(task_id)
+    M->>T: delete_task(task_id)
+    M->>U: logout_user()
